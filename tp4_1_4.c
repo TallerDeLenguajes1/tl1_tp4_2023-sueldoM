@@ -77,6 +77,9 @@ int main() {
             free(tareas[i]);
         }
     }
+
+    
+
     free(tareas);
 
     return 0;
