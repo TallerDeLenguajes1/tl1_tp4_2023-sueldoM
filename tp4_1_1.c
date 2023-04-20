@@ -10,9 +10,6 @@ struct Tarea {
     int Duracion;
 };
 
-void cargar_tareas(struct Tarea *tareas, int *cant_tareas);
-void mostrar_tareas(struct Tarea *tareas, int cant_tareas);
-
 int main() {
     struct Tarea tareas[MAX_TAREAS];
     int cant_tareas = 0;
